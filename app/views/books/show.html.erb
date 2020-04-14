@@ -1,0 +1,13 @@
+<div class="box">
+<p id="notice"><%= notice %></p>
+<strong>Title:</strong>
+	<%= @book.title %>
+<br>
+<strong>Body:</strong>
+    <%= @book.body %>
+<br>
+
+<%= link_to "Edit", edit_book_path(@book.id) %>
+|
+<a href="/books">Back</a>
+</div>
